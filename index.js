@@ -56,4 +56,4 @@ function rExpose(obj) {
 //TODO
 //how to expose all obj's function?
 //or not to?
-gExpose(web, 'url');
+gExpose(web);
