@@ -1,6 +1,6 @@
 {
   "name": "yc-random",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "this is a fancy random node tool",
   "main": "index.js",
   "scripts": {
