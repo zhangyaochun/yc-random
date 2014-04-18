@@ -15,6 +15,9 @@
     "random",
     "node"
   ],
+  "dependencies": {
+    "lodash": "~0.9.2"
+  },
   "author": "zhangyaochun",
   "license": "BSD-2-Clause",
   "bugs": {
