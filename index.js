@@ -3,7 +3,7 @@
 var random = module.exports = {};
 
 //natural
-random.natural = function (mim, max) {
+random.natural = function (min, max) {
 
     if (arguments.length == 0) {
         return 0;
@@ -32,7 +32,7 @@ function rRequire(name) {
 
 rRequire('util');
 rRequire('address');
-rRequire('data');
+rRequire('date');
 rRequire('color');
 
 //image relay color
@@ -44,16 +44,16 @@ rRequire('word');
 var web = rRequire('web');
 
 //version from package.json
-random.version = require('package.json').version;
+random.version = require('./package.json').version;
 
 
 function rExpose(obj) {
    for (var key in obj) {
-      grunt[key] = obj[key].bind(obj);
+      random[key] = obj[key].bind(obj);
    }
 }
 
 //TODO
 //how to expose all obj's function?
 //or not to?
-gExpose(web);
+rExpose(web);
