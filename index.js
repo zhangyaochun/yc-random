@@ -1,5 +1,7 @@
 'use strict';
 
+var uuid = require('yc-uuid');
+
 var random = module.exports = {};
 
 //natural
@@ -23,6 +25,11 @@ random.pick = function (arr) {
     if (arguments.length > 0) {
         return arr[random.natural(0,arr.length - 1)];
     }
+};
+
+//uuid
+random.uuid = function () {
+    return uuid();
 };
 
 

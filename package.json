@@ -1,6 +1,6 @@
 {
   "name": "yc-random",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "this is a fancy random node tool",
   "main": "index.js",
   "scripts": {
@@ -16,7 +16,8 @@
     "node"
   ],
   "dependencies": {
-    "lodash": "~0.9.2"
+    "lodash": "~0.9.2",
+    "yc-uuid": "latest"
   },
   "author": "zhangyaochun",
   "license": "BSD-2-Clause",

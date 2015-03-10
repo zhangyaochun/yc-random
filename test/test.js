@@ -5,3 +5,4 @@ console.log(random.web.domain());
 
 console.log(random.word.word());
 
+console.log(random.uuid());
