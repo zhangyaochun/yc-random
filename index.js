@@ -23,13 +23,18 @@ random.natural = function (min, max) {
 random.pick = function (arr) {
     //todo add isArray check
     if (arguments.length > 0) {
-        return arr[random.natural(0,arr.length - 1)];
+        return arr[random.natural(0, arr.length - 1)];
     }
 };
 
 //uuid
 random.uuid = function () {
     return uuid();
+};
+
+//boolean
+random.boolean = function () {
+    return random.pick([true, false]);
 };
 
 
