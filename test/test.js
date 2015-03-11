@@ -14,3 +14,5 @@ console.log(random.uuid());
 console.log(random.boolean());
 
 console.log(random.natural(0,2));
+
+console.log(random.word.capitalize('abc'));
